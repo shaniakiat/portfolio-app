@@ -7,7 +7,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background: black;
+    background: #1b1e27;
     align-items: center;
     padding-right: 20px;
     padding-left: 20px;
@@ -25,4 +25,9 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #db588a;
 }

@@ -3,21 +3,21 @@
 header{
     margin: 0 auto;
     text-align: center;
-    padding-top:300px;
+    padding-top:270px;
 }
 
 header h1{
     margin: 0;
     font-weight: 800;
-    font-size: 4rem;
-    color: black;
+    font-size: 6rem;
+    color: white;
 
 }
 
 header p{
     font-weight: 400;
     font-size: 1rem;
-    color: black;
+    color: white;
     margin-bottom: 30px;
 }
 

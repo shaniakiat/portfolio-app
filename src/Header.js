@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Background from './img/pink-bg.jpg';
+import Background from './img/dark-bg-01.jpg';
 import './Header.css';
 
 const myStyles = {
