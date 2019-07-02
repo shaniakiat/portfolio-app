@@ -10,21 +10,21 @@ header h1{
     margin: 0;
     font-weight: 800;
     font-size: 4rem;
-    color: #703fa6;
+    color: black;
 
 }
 
 header p{
     font-weight: 400;
     font-size: 1rem;
-    color: #703fa6;
+    color: black;
     margin-bottom: 30px;
 }
 
 header a{
     font-weight: 500i;
     font-size: 2rem;
-    color: #ab48c2;
+    color: white;
     text-decoration: none;
     display: inline-block;
 }

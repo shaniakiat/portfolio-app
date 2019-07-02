@@ -1,6 +1,5 @@
 .logo{
     font-size: 20px;
-    font-weight: 900;
     color:#fff;
 
 }
@@ -8,7 +7,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background: #703fa6;
+    background: black;
     align-items: center;
     padding-right: 20px;
     padding-left: 20px;
