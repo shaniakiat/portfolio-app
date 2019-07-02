@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:900|Nunito+Sans:300,400&display=swap');
+
 .logo{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     color:#fff;
 
