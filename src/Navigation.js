@@ -11,7 +11,7 @@ class Navigation extends Component {
         });
         return (
             <nav>    
-                <h2 className="logo">{this.props.logoTitle}</h2>
+                <h2 className="logo"><a href={'#Home'}>{this.props.logoTitle}</a></h2>
                 <ul>
                     {navLinks}
                 </ul>
