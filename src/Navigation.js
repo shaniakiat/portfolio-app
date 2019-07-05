@@ -6,13 +6,12 @@ class Navigation extends Component {
         const sections = ['Home', 'About', 'Contact'];
         const navLinks = sections.map(section => {
             return(
-                <li><a href={'#' + section}>{section}</a></li>
+                <li key={section}><a href={'#' + section}>{section}</a></li>
             )
         });
         return (
-            <nav>
-                <h2 class="logo">{this.props.logoTitle}</h2>
-                
+            <nav>    
+                <h2 className="logo">{this.props.logoTitle}</h2>
                 <ul>
                     {navLinks}
                 </ul>

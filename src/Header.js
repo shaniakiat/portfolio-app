@@ -13,13 +13,13 @@ class Header extends Component {
         
         return(
             <header style={myStyles}>
-                <p1>{this.props.intro}</p1>
+                <h4>{this.props.intro}</h4>
                 <h1>{this.props.title}</h1>
-                <p>
-                    I'm a undergraduate student at La Salle University, PA <br />
+                <h3>
+                    I'm an undergraduate student at La Salle University, PA <br />
                     majoring in mathematics and computer science.
-                </p>
-                {/* <a href='#button'>{this.props.button}</a> */}
+                </h3>
+                <a href='#resume'>{this.props.button}</a>
             </header>
         );
     }
